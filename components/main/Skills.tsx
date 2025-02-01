@@ -9,7 +9,7 @@ const Skills = () => {
         <section
             id='skills'
             style={{ transform: "scale(0.9)" }}
-            className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-44 py-20'>
+            className='flex flex-col md:flex md:flex-col md:pb-0 items-center justify-center gap-3 h-full relative overflow-hidden lg:pb-44 -py-20'>
             <SkillText />
             <div className='flex flex-row justify-around flex-wrap  mt-4 gap-5 items-center'>
                 {Frontend_skill.map((image, index) => (
