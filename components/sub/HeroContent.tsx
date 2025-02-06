@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from "../../utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
@@ -24,7 +24,7 @@ const HeroContent = () => {
                     </h1>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                     variants={slideInFromLeft(0.5)}
                     className="flex flex-col gap-6 mt-6 text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
                 >
@@ -36,6 +36,25 @@ const HeroContent = () => {
                         </span>
                         project experience
                     </span>
+                </motion.div> */}
+
+                <motion.div
+                    variants={slideInFromLeft(0.5)}
+                    className="flex flex-col gap-6 mt-6 text-4xl md:text-6xl font-bold text-white w-auto h-auto"
+                >
+                    <span className="">
+                        Hello
+                    </span>
+                    <span className=" max-lg:-mt-5">
+                        <span >
+                            I&apos;m
+                        </span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                            {" "}
+                            Dev Nehate{" "}
+                        </span>
+                    </span>
+
                 </motion.div>
 
                 <motion.p
